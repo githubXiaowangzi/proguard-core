@@ -4,6 +4,7 @@ plugins {
     id 'java'
     id 'maven-publish'
     id 'signing'
+    id "org.sonarqube" version "3.0"
 }
 
 wrapper {
